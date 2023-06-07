@@ -148,7 +148,7 @@ const Calculator = () => {
                 }`}
                 id="numberOfPeopleError"
               >
-                Can't be zero!
+                Can&apos;t be zero!
               </small>
             </div>
             <input
