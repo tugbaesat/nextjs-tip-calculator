@@ -102,20 +102,23 @@ input {
 }
 
 .logo {
-  margin-bottom: 90px;
-}
-
-.card {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #fff;
-  box-shadow: 0 32px 43px 0 rgba(79, 166, 175, 0.2);
-  border-radius: 25px;
-  max-width: 920px;
-  padding: 32px;
-  width: 100%;
-}
+ }
+ 
+ .card {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #fff;
+   box-shadow: 0 32px 43px 0 rgba(79, 166, 175, 0.2);
+   border-radius: 25px;
+   max-width: 920px;
+   padding: 32px;
+   width: 90%;
+   margin: 10px auto;
+ }
 
 .card-left {
   margin-right: 48px;
@@ -280,7 +283,7 @@ input {
 @media (max-width: 800px) {
   .card {
     flex-direction: column;
-    border-radius: 25px 25px 0 0;
+    border-radius: 25px;
     padding: 32px 24px;
   }
 

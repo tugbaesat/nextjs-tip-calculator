@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Image from "next/image";
 
 const Calculator = () => {
   // TODO: start coding here!
@@ -62,11 +63,14 @@ const Calculator = () => {
 
   return (
     <main>
-      <img
+       <section className="logo">
+      <Image
         src="./icons/logo.svg"
-        className="logo"
         alt="Splitter logo. 'SPLI' on one line and 'TTER' on another to indicate splitting."
+        width={100}
+        height={100}
       />
+      </section>
       <section className="card">
         <div className="card-left">
           <div className="input-group" id="totalBillGroup">
@@ -128,7 +132,7 @@ const Calculator = () => {
               </button>
               <input
                 type="number"
-                className="body-l-text input-field"
+                className="body-text input-field"
                 placeholder="Custom"
                 id="totalTipPercentage"
                 onChange={handleTipPercentageInput}
