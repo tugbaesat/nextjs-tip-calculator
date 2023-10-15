@@ -5,7 +5,7 @@ This is a Frontend Mentor project, where it calculates the correct tip and total
 
 ## Live Demo of the Project: 📹
 
-[Tip Calculator Project Website]([https://202303-prm-tr-few.github.io/movie-project-baris-tugba-ayman/](https://nextjs-tip-calculator.vercel.app/)
+[Tip Calculator Project Website](https://nextjs-tip-calculator.vercel.app/)
 
 ## Technologies, Frameworks and Libraries: ☕️ 🐍 ⚛️
 - [Next.js](https://nextjs.org/), [React](https://react.dev/)
